@@ -15,6 +15,7 @@ public class GetActivities {
 	public void testGetActivities() {
 		given().when().get("https://fakerestapi.azurewebsites.net/api/v1/Activities").then().log().all()
 				.statusCode(200);
+		System.out.println("Chaitanya");
 
 	}
 
